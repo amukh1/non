@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: rgb(119, 119, 224);
+    font-family: 'Oswald', sans-serif;
+}
+
+.head {
+    transition: all 0.5s ease;
+    font-size: 4rem;
+    text-align: center;
+ 
+}
+
+.sub {
+    font-size: 2.5rem;
+transition: all 0.55s ease;
+    text-align: center;
+}
+
+.head:hover {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.sub:hover {
+    font-size: 2.5rem;
+color: white;
+    text-align: center;
+}
+
+.proj {
+    font-size: 2rem;
+transition: all 0.55s ease;
+    text-align: center;
+    margin: 25px;
+}
+
+.proj:hover {
+    font-size: 2rem;
+transition: all 0.55s ease;
+    text-align: center;
+    color: white;
+    
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: black;
+    color: white;
+    padding: 25px;
+border-radius: 25px;
+width: 500px;
+height: min-content;
+}
+.desc {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+
+}
